@@ -1,2 +1,2 @@
-# Holly-s-Poodle-Page
+# HollysPoodlePage
 Website for Holly's Poodles
