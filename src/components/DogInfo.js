@@ -24,7 +24,7 @@ function DogInfo( {name, desc, size, birth, reg}) {
     <StyledCard> 
       <h2> {name} </h2>
       <h4> {desc} </h4>
-      <h3>Size: {size} </h3>
+      <h3> {size} </h3>
       <h3>Registered: {reg} </h3>
     </StyledCard> 
   )

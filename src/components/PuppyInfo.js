@@ -20,7 +20,7 @@ const StyledCard = styled.div`
 `;
 
 
-function PuppyInfo( {name, status, desc, size, birth, ready, price }) {
+function PuppyInfo( {name, status, desc, size, birth, ready, price, contract }) {
   return (
     <StyledCard> 
       <h2> {name} </h2>
@@ -30,6 +30,7 @@ function PuppyInfo( {name, status, desc, size, birth, ready, price }) {
       <h3>Birth Date: {birth} </h3>
       <h3>Ready Date: {ready} </h3>
       <h2>Price: {price}</h2>
+      <h3>{contract}</h3>
     </StyledCard> 
   )
 }     

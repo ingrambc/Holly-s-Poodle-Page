@@ -1,8 +1,12 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import DogInfo from "../components/DogInfo";
-import Crsl from "../components/Crsl";
 import styled from "styled-components";
+
+//assets
+import RigbyImg from "../images/Rigby300.jpg";
+import TrixieImg from "../images/Trixie300.jpg";
+import SnickersImg from "../images/Snickers300.jpg";
 
 const StyledMyDogs = styled.div`
   display: flex;
@@ -33,18 +37,18 @@ function MyDogs() {
 
   return (        
     <StyledMyDogs class="mb-3 mx-auto">
-      <h1>These are my Furbabies</h1>
+      <h1>Meet our Dogs</h1>
       <hr />
       <Container>
         <Row>
           <Col md="4">
-            <p>this is for Carousel</p>
+            <img src={RigbyImg} alt="Rigby Jasper" />
           </Col>
           <Col md="8">
             <DogInfo
               name="Rigby Jasper"
-              desc = "Rigby is a very playfull dog.  He plays with our other dogs, our cat, and anyone who will spend time with him. He love attention and loves to be brushed and groomed! He is deffinately the prince of the house."
-              size = "9 inches tall and 4.5 lbs"
+              desc = "Rigby is a very playfull dog.  He plays with our other dogs, our cat, and anyone who will spend time with him. He loves to be brushed and groomed! He is deffinately the prince of the house."
+              size = "Red Toy Male - 9 inches tall and 4.5 lbs"
               reg = "AKC and ACA"
              />
           </Col>
@@ -53,13 +57,13 @@ function MyDogs() {
       <Container>
         <Row>
           <Col md="4">
-            <p>this is for Carousel</p>
+            <img src={TrixieImg} alt="Trixie" />
           </Col>
           <Col md="8">
             <DogInfo
               name="Trixie"
               desc = "Trixie is the most independant poodle we have ever seen.  She loves attention, can play fetch for ever, and when now one is playing with her, she tosses her toys in the air and tries to catch them."
-              size = "10.5 inches tall and 6 lbs"
+              size = "Apricot Toy Female - 10 inches tall and 6 lbs"
               reg = "ACA"
              />
           </Col>
@@ -68,13 +72,13 @@ function MyDogs() {
       <Container>
         <Row>
           <Col md="4">
-            <p>this is for Carousel</p>
+            <img src={SnickersImg} alt="Snickers" />
           </Col>
           <Col md="8">
             <DogInfo
               name="Snickers"
-              desc = "Snickers is a very cuddley dog.  She always wants to be touching you or in your lap. She is very attached to both me and my husband, but is the first to walk up to new people."
-              size = "11.5 inches tall and 8 lbs"
+              desc = "Snickers is a very cuddley dog.  She always wants to be laying next to you or in your lap. She is very attached to both me and my husband, but is the first to walk up to new people."
+              size = "Apricot Mini Female - 11 inches tall and 8 lbs"
               reg = "ACA"
              />
           </Col>
