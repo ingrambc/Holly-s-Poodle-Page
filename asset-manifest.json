@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/RigbyJasperPoodles/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/RigbyJasperPoodles/static/js/main.f47a05cf.chunk.js",
-    "main.js.map": "/RigbyJasperPoodles/static/js/main.f47a05cf.chunk.js.map",
-    "runtime-main.js": "/RigbyJasperPoodles/static/js/runtime-main.7bcce642.js",
-    "runtime-main.js.map": "/RigbyJasperPoodles/static/js/runtime-main.7bcce642.js.map",
+    "main.js": "/RigbyJasperPoodles/static/js/main.cd827c9c.chunk.js",
+    "main.js.map": "/RigbyJasperPoodles/static/js/main.cd827c9c.chunk.js.map",
+    "runtime-main.js": "/RigbyJasperPoodles/static/js/runtime-main.48727e13.js",
+    "runtime-main.js.map": "/RigbyJasperPoodles/static/js/runtime-main.48727e13.js.map",
     "static/css/2.e5750c50.chunk.css": "/RigbyJasperPoodles/static/css/2.e5750c50.chunk.css",
-    "static/js/2.d86c5875.chunk.js": "/RigbyJasperPoodles/static/js/2.d86c5875.chunk.js",
-    "static/js/2.d86c5875.chunk.js.map": "/RigbyJasperPoodles/static/js/2.d86c5875.chunk.js.map",
-    "static/js/3.97d805f8.chunk.js": "/RigbyJasperPoodles/static/js/3.97d805f8.chunk.js",
-    "static/js/3.97d805f8.chunk.js.map": "/RigbyJasperPoodles/static/js/3.97d805f8.chunk.js.map",
+    "static/js/2.9873905d.chunk.js": "/RigbyJasperPoodles/static/js/2.9873905d.chunk.js",
+    "static/js/2.9873905d.chunk.js.map": "/RigbyJasperPoodles/static/js/2.9873905d.chunk.js.map",
+    "static/js/3.b662d938.chunk.js": "/RigbyJasperPoodles/static/js/3.b662d938.chunk.js",
+    "static/js/3.b662d938.chunk.js.map": "/RigbyJasperPoodles/static/js/3.b662d938.chunk.js.map",
     "index.html": "/RigbyJasperPoodles/index.html",
     "static/css/2.e5750c50.chunk.css.map": "/RigbyJasperPoodles/static/css/2.e5750c50.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/RigbyJasperPoodles/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d86c5875.chunk.js.LICENSE.txt": "/RigbyJasperPoodles/static/js/2.d86c5875.chunk.js.LICENSE.txt",
+    "static/js/2.9873905d.chunk.js.LICENSE.txt": "/RigbyJasperPoodles/static/js/2.9873905d.chunk.js.LICENSE.txt",
     "static/media/Rigby300.92b9acb9.jpg": "/RigbyJasperPoodles/static/media/Rigby300.92b9acb9.jpg",
     "static/media/RigbyArt.df23dcd4.jpg": "/RigbyJasperPoodles/static/media/RigbyArt.df23dcd4.jpg",
     "static/media/Snickers300.ccb2b4e8.jpg": "/RigbyJasperPoodles/static/media/Snickers300.ccb2b4e8.jpg",
@@ -22,10 +22,10 @@
     "static/media/facebook.c6decf7a.png": "/RigbyJasperPoodles/static/media/facebook.c6decf7a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bcce642.js",
+    "static/js/runtime-main.48727e13.js",
     "static/css/2.e5750c50.chunk.css",
-    "static/js/2.d86c5875.chunk.js",
+    "static/js/2.9873905d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f47a05cf.chunk.js"
+    "static/js/main.cd827c9c.chunk.js"
   ]
 }
