@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rigbyjasperpoodles/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/rigbyjasperpoodles/static/js/main.c5c4079d.chunk.js",
-    "main.js.map": "/rigbyjasperpoodles/static/js/main.c5c4079d.chunk.js.map",
+    "main.js": "/rigbyjasperpoodles/static/js/main.3d1ec5ab.chunk.js",
+    "main.js.map": "/rigbyjasperpoodles/static/js/main.3d1ec5ab.chunk.js.map",
     "runtime-main.js": "/rigbyjasperpoodles/static/js/runtime-main.57734383.js",
     "runtime-main.js.map": "/rigbyjasperpoodles/static/js/runtime-main.57734383.js.map",
     "static/css/2.280bbcf2.chunk.css": "/rigbyjasperpoodles/static/css/2.280bbcf2.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.280bbcf2.chunk.css",
     "static/js/2.9a11f77a.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.c5c4079d.chunk.js"
+    "static/js/main.3d1ec5ab.chunk.js"
   ]
 }
