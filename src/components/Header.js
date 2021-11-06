@@ -40,18 +40,18 @@ const Header = (props) => {
   return (
     <StyledNav>
       <Navbar color="rgb(44, 141, 44)" light expand="md">
-        <NavbarBrand tag={Link} to="/RigbyJasperPoodles">Rigby Jasper Poodles</NavbarBrand>
+        <NavbarBrand tag={Link} to="/rigbyjasperpoodles">Rigby Jasper Poodles</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink tag={Link} to="/RigbyJasperPoodles/about">Home</NavLink>
+              <NavLink tag={Link} to="/rigbyjasperpoodles/about">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/RigbyJasperPoodles/MyDogs">My Dogs</NavLink>
+              <NavLink tag={Link} to="/rigbyjasperpoodles/MyDogs">My Dogs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/RigbyJasperPoodles/AvailablePuppies">Available Puppies</NavLink>
+              <NavLink tag={Link} to="/rigbyjasperpoodles/AvailablePuppies">Available Puppies</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={Link} to="/RigbyJasperPoodles/contact">Contact</NavLink>
