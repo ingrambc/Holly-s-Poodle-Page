@@ -54,7 +54,7 @@ const Header = (props) => {
               <NavLink tag={Link} to="/rigbyjasperpoodles/AvailablePuppies">Available Puppies</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={Link} to="/RigbyJasperPoodles/contact">Contact</NavLink>
+              <NavLink tag={Link} to="/rigbyjasperpoodles/contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
