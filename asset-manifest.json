@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RigbyJasperPoodles/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/RigbyJasperPoodles/static/js/main.cd827c9c.chunk.js",
-    "main.js.map": "/RigbyJasperPoodles/static/js/main.cd827c9c.chunk.js.map",
+    "main.js": "/RigbyJasperPoodles/static/js/main.6839e4a6.chunk.js",
+    "main.js.map": "/RigbyJasperPoodles/static/js/main.6839e4a6.chunk.js.map",
     "runtime-main.js": "/RigbyJasperPoodles/static/js/runtime-main.48727e13.js",
     "runtime-main.js.map": "/RigbyJasperPoodles/static/js/runtime-main.48727e13.js.map",
     "static/css/2.280bbcf2.chunk.css": "/RigbyJasperPoodles/static/css/2.280bbcf2.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.280bbcf2.chunk.css",
     "static/js/2.9873905d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.cd827c9c.chunk.js"
+    "static/js/main.6839e4a6.chunk.js"
   ]
 }
