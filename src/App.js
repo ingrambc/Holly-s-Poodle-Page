@@ -13,10 +13,10 @@ function App() {
     <Router>
         <Header />
         <Wrapper>
-          <Route exact path="/MyDogs" component={ MyDogs } />
-          <Route exact path="/AvailablePuppies" component={ AvailablePuppies } />
-          <Route exact path="/contact" component={ Contact } />
-          <Route exact path={["/", "/about"]} component={ About } />
+          <Route exact path="/rigbyjasperpoodles/MyDogs" component={ MyDogs } />
+          <Route exact path="/rigbyjasperpoodles/AvailablePuppies" component={ AvailablePuppies } />
+          <Route exact path="/rigbyjasperpoodles/contact" component={ Contact } />
+          <Route exact path={["/rigbyjasperpoodles/", "/rigbyjasperpoodles/about"]} component={ About } />
         </Wrapper> 
         <Footer />
 
