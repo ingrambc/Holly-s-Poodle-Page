@@ -84,7 +84,7 @@ const About = () => {
 
       <Container>
         <Row id="headline">
-          <a id="headlineText" href="/RigbyJasperPoodles/AvailablePuppies">   We have Puppies!   </a>
+          <a id="headlineText" href="/rigbyjasperpoodles/AvailablePuppies">   We have Puppies!   </a>
         </Row>
         <Row><hr/><hr/></Row>
         <Row>
