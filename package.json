@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ingrambc.github.io/RigbyJasperPoodles/about",
-  "name": "HollysPoodlePage",
+  "homepage": "https://ingrambc.github.io/RigbyJasperPoodles/",
+  "name": "rigbyjasperpoodles",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
