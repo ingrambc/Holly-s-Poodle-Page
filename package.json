@@ -1,5 +1,4 @@
 {
-  "homepage": "https://ingrambc.github.io/RigbyJasperPoodles/",
   "name": "rigbyjasperpoodles",
   "version": "0.1.0",
   "private": false,
@@ -45,5 +44,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "homepage": "https://ingrambc.github.io/RigbyJasperPoodles/"
 }
