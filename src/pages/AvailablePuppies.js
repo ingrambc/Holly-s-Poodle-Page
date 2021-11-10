@@ -113,7 +113,7 @@ function AvailablePuppies() {
               size = "11 to 12 inches and 8 to 9 lbs"
               birth= "Sept 30, 2021"
               ready= "Nov 28, 2021"
-              price = "$3000"
+              price = "$2500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
@@ -132,7 +132,7 @@ function AvailablePuppies() {
               size = "10-11 inches and 7 to 8 lbs"
               birth= "Sept 30, 2021"
               ready= "Nov 28, 2021"
-              price = "$3000"
+              price = "$2500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
