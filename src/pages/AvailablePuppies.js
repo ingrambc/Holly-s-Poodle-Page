@@ -108,12 +108,12 @@ function AvailablePuppies() {
           <Col md="8">
             <PuppyInfo
               name="Millie"
-              status="Available"
+              status="Reserved for Claudia"
               desc = "Small Miniture Aprricot Female"
-              size = "11 to 12 inches and 8 to 9 lbs"
+              size = "10 to 11.5 inches and 7 to 8.5 lbs"
               birth= "Sept 30, 2021"
               ready= "Nov 28, 2021"
-              price = "$2500"
+              price = "***"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
@@ -129,10 +129,10 @@ function AvailablePuppies() {
               name="Elliemae"
               status="Available"
               desc = "Small Miniture Appricot Female"
-              size = "10-11 inches and 7 to 8 lbs"
+              size = "10 to 11 inches and 7 to 8 lbs"
               birth= "Sept 30, 2021"
               ready= "Nov 28, 2021"
-              price = "$2500"
+              price = "$1500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
