@@ -67,8 +67,8 @@ const About = () => {
       <Row>
         <Col md="6" id="center">
           <h2>Welcome to Rigby Jasper Poodles</h2>
-          <p>We are a home hobby breeder of toy and small miniture poodles.  We currently have thre dog and all 
-            loving members of our family.  We love poodles and select our dogs for their temperment and breed standard
+          <p>We are a home hobby breeder of toy and small miniture poodles.  We currently have three dogs and all 
+            are loving members of our family.  We love poodles and select our dogs for their temperment and breed standard
             qualities.  We want everyone to experience the loyalty and love of a poodle.  We are hoping to share our 
             love of poodles and help you bring one into your family.
           </p>
