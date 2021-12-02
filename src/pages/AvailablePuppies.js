@@ -127,7 +127,7 @@ function AvailablePuppies() {
           <Col md="8">
             <PuppyInfo
               name="Elliemae"
-              status="Available"
+              status="Reserved for Arlet"
               desc = "Small Miniture Appricot Female"
               size = "10 to 11 inches and 7 to 8 lbs"
               birth= "Sept 30, 2021"
