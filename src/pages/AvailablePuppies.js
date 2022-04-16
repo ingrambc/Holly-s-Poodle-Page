@@ -77,8 +77,8 @@ function AvailablePuppies() {
             <PuppyInfo
               name="Zapphora"
               status="Available"
-              desc = "Small Miniture Aprricot/Cream Male"
-              size = "10 to 11.5 inches and 7 to 8.5 lbs"
+              desc = "Small Miniture Apricot Male"
+              size = "11 inches and 8 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
               price = "2000"
@@ -96,8 +96,8 @@ function AvailablePuppies() {
             <PuppyInfo
               name="Lyra"
               status="Available"
-              desc = "Small Miniture Aprricot Female"
-              size = "10 to 12 inches and 7.5 to 9 lbs"
+              desc = "Small Miniture Apricot/Red Female"
+              size = "12 inches and 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
               price = "2000"
@@ -115,8 +115,8 @@ function AvailablePuppies() {
             <PuppyInfo
               name="Daphne"
               status="Available"
-              desc = "Small Miniture Aprricot Female"
-              size = "10 to 11.5 inches and 7 to 8.5 lbs"
+              desc = "Small Miniture Apricot/Red Female"
+              size = "11 inches and 8 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
               price = "2000"

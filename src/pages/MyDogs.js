@@ -63,7 +63,7 @@ function MyDogs() {
             <DogInfo
               name="Trixie"
               desc = "Trixie is the most independant poodle we have ever seen.  She loves attention, can play fetch for ever, and when no one is playing with her, she tosses her toys in the air and tries to catch them."
-              size = "Apricot Toy Female - 10 inches tall and 6.3 lbs"
+              size = "Cream Toy Female - 10 inches tall and 6.3 lbs"
               reg = "ACA"
              />
           </Col>
@@ -78,7 +78,7 @@ function MyDogs() {
             <DogInfo
               name="Snickers"
               desc = "Snickers is a very cuddley dog.  She always wants to be laying next to you or in your lap. She is very attached to both me and my husband, but is the first to walk up to new people."
-              size = "Apricot Mini Female - 12 inches tall and 8.2 lbs"
+              size = "Cream Mini Female - 12 inches tall and 8.2 lbs"
               reg = "ACA"
              />
           </Col>
