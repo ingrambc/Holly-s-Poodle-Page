@@ -84,7 +84,7 @@ const About = () => {
 
       <Container>
         <Row id="headline">
-          <a id="headlineText">   We Have Puppies Available!   </a>
+          <a id="headlineText"> We Have Puppies Available! Born 4-15-2020  </a>
         </Row>
         <Row><hr/><hr/></Row>
         <Row>

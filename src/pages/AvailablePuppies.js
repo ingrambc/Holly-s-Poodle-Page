@@ -6,67 +6,35 @@ import PuppyInfo from "../components/PuppyInfo";
 
 //assets
 
-const Millie = [
+const Zippy = [
   {
-    src: './images/Millie3.jpg',
-    altText: 'Millie',
-    caption: '2 lbs, 2.6 oz',
-    header: '5 Weeks',
+    src: './images/current/Zippy1.jpg',
+    altText: 'Zippy',
+    caption: '0 lbs, 5.8 oz',
+    header: 'Day 1',
     key: '1',
   },
+];
+
+const Lyra = [
   {
-    src: './images/Millie1.jpg',
-    altText: 'Millie',
-    caption: 'white spot on head and foot',
-    header: ' ',
-    key: '2',
-  },
-  {
-    src: './images/Millie4.jpg',
-    altText: 'Millie',
-    caption: '5 weeks',
-    header: ' ',
-    key: '3',
-  },
-  {
-    src: './images/Millie6.jpg',
-    altText: 'Millie',
-    caption: 'first day',
-    header: '0 lbs, 6.7 oz',
-    key: '4',
+    src: './images/current/Lyra1.jpg',
+    altText: 'Lyra',
+    caption: '0 lbs, 5.9 oz',
+    header: 'Day 1',
+    key: '1',
   }
 ];
 
-const Elliemae = [
+const Daphne = [
   {
-    src: './images/Elliemae4.jpg',
-    altText: 'Elliemae',
-    caption: '5 weeks',
-    header: ' ',
+    src: './images/current/Daphne1.jpg',
+    altText: 'Daphne',
+    caption: '0 lbs, 5.8 oz',
+    header: 'Day 1',
     key: '1',
-  },
-  {
-    src: './images/Elliemae2.jpg',
-    altText: 'Elliemae',
-    caption: 'white spot on foot',
-    header: ' ',
-    key: '2',
-  },
-  {
-    src: './images/Elliemae3.jpg',
-    altText: 'Elliemae',
-    caption: '5 weeks',
-    header: '1 lbs, 15 oz',
-    key: '3',
-  },
-  {
-    src: './images/Elliemae5.jpg',
-    altText: 'Elliemae',
-    caption: 'first day',
-    header: '0 lbs, 7.4 oz',
-    key: '4',
   }
-]
+];
 
 const StyledAvailablePuppies = styled.div`
   display: flex;
@@ -103,17 +71,17 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Millie} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Zippy} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Millie"
-              status="Reserved for Claudia"
-              desc = "Small Miniture Aprricot Female"
+              name="Zapphora"
+              status="Available"
+              desc = "Small Miniture Aprricot/Cream Male"
               size = "10 to 11.5 inches and 7 to 8.5 lbs"
-              birth= "Sept 30, 2021"
-              ready= "Nov 28, 2021"
-              price = "***"
+              birth= "April 15, 2022"
+              ready= "June 10, 2022"
+              price = "2000"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
@@ -122,17 +90,36 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Elliemae} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lyra} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Elliemae"
-              status="Reserved for Arlet"
-              desc = "Small Miniture Appricot Female"
-              size = "10 to 11 inches and 7 to 8 lbs"
-              birth= "Sept 30, 2021"
-              ready= "Nov 28, 2021"
-              price = "$1500"
+              name="Lyra"
+              status="Available"
+              desc = "Small Miniture Aprricot Female"
+              size = "10 to 12 inches and 7.5 to 9 lbs"
+              birth= "April 15, 2022"
+              ready= "June 10, 2022"
+              price = "2000"
+              contract = "Strict Spay/no breeding rights"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Daphne} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PuppyInfo
+              name="Daphne"
+              status="Available"
+              desc = "Small Miniture Aprricot Female"
+              size = "10 to 11.5 inches and 7 to 8.5 lbs"
+              birth= "April 15, 2022"
+              ready= "June 10, 2022"
+              price = "2000"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
