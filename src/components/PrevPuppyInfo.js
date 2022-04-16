@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const StyledCard = styled.div`
   a:link, a:visited{
