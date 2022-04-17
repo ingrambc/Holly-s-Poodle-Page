@@ -20,13 +20,14 @@ const StyledCard = styled.div`
 `;
 
 
-function PuppyInfo( {name, status, desc, size, birth, ready, price, contract }) {
+function PuppyInfo( {name, status, desc, height, weight, birth, ready, price, contract }) {
   return (
     <StyledCard> 
       <h2> {name} </h2>
       <h1> {status} </h1>
       <h3>Description: {desc} </h3>
-      <h3>Estimated Adult Size: {size}** </h3>
+      <h3>Estimated Adult Height: {height}** </h3>
+      <h3>Estimated Adult Weight: {weight}** </h3>
       <h3>Birth Date: {birth} </h3>
       <h3>Ready Date: {ready} </h3>
       <h2>Price: {price}</h2>
