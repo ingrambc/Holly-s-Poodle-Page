@@ -6,10 +6,10 @@ import PuppyInfo from "../components/PuppyInfo";
 
 //assets
 
-const Zippy = [
+const Brutus = [
   {
-    src: './images/current/Zippy1.jpg',
-    altText: 'Zippy',
+    src: './images/current/Brutus1.jpg',
+    altText: 'Brutus',
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
     key: '1',
@@ -26,9 +26,9 @@ const Lyra = [
   }
 ];
 
-const Daphne = [
+const Gidget = [
   {
-    src: './images/current/Daphne1.jpg',
+    src: './images/current/Gidget1.jpg',
     altText: 'Daphne',
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
@@ -71,11 +71,11 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Zippy} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Brutus} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Zapphora"
+              name="Brutus"
               status="Available"
               desc = "Small Miniture Apricot Male"
               size = "11 inches and 8 lbs"
@@ -109,11 +109,11 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Daphne} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Gidget} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Daphne"
+              name="Gidget"
               status="Available"
               desc = "Small Miniture Apricot/Red Female"
               size = "11 inches and 8 lbs"
