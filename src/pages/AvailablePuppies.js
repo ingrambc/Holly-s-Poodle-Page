@@ -145,7 +145,7 @@ function AvailablePuppies() {
             <PuppyInfo
               name="Gidget"
               status="Available"
-              desc = "Small Miniture Apricot/Red Female"
+              desc = "Small Miniture Apricot Female"
               height = "10 to 12 inches"
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
@@ -165,9 +165,9 @@ function AvailablePuppies() {
             <PuppyInfo
               name="Riley"
               status="Available"
-              desc = "Large Toy Apricot Female"
-              height = "9 to 11 inches"
-              weight = "6.5 to 8 lbs"
+              desc = "Toy Apricot Female"
+              height = "9 to 10.5 inches"
+              weight = "6 to 7.5 lbs"
               birth= "April 30, 2022"
               ready= "June 15, 2022"
               price = "2000"
