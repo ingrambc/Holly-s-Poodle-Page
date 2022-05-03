@@ -13,6 +13,12 @@ const Brutus = [
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
     key: '1',
+  },  {
+    src: './images/current/Brutus17d.jpg',
+    altText: 'Brutus',
+    caption: '0 lbs, 15.5 oz',
+    header: 'Day 17',
+    key: '2',
   },
 ];
 
@@ -23,18 +29,40 @@ const Lyra = [
     caption: '0 lbs, 5.9 oz',
     header: 'Day 1',
     key: '1',
-  }
+  },  {
+    src: './images/current/Lyra17d.jpg',
+    altText: 'Lyra',
+    caption: '0 lbs, 15.5 oz',
+    header: 'Day 17',
+    key: '2',
+  },
 ];
 
 const Gidget = [
   {
     src: './images/current/Gidget1.jpg',
-    altText: 'Daphne',
+    altText: 'Gidget',
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
     key: '1',
-  }
+  },  {
+    src: './images/current/Gidget17d.jpg',
+    altText: 'Gidget',
+    caption: '1 lbs, 0 oz',
+    header: 'Day 17',
+    key: '2',
+  },
 ];
+
+const Riley = [
+  {
+    src: './images/current/Riley1d.jpg',
+    altText: 'Riley',
+    caption: '0 lbs, 5.5 oz',
+    header: 'Day 1',
+    key: '1',  
+  }
+]
 
 const StyledAvailablePuppies = styled.div`
   display: flex;
@@ -122,6 +150,26 @@ function AvailablePuppies() {
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
+              price = "2000"
+              contract = "Strict Spay/no breeding rights"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Riley} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PuppyInfo
+              name="Riley"
+              status="Available"
+              desc = "Large Toy Apricot Female"
+              height = "9 to 11 inches"
+              weight = "6.5 to 8 lbs"
+              birth= "April 30, 2022"
+              ready= "June 15, 2022"
               price = "2000"
               contract = "Strict Spay/no breeding rights"
              />

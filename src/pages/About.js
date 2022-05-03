@@ -59,6 +59,28 @@ const StyledAbout = styled.div`
     font-size: 40px;
     text-size-adjust: 90%;
   }
+
+  #headline2{
+    margin: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center; 
+    
+  }
+
+  #headlineText2{
+    justify-content: center;
+    background-color: rgb(86, 252, 3);
+    color: rgb(36, 3, 252);
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 10px;
+    font-size: 40px;
+    text-size-adjust: 90%;
+  }
 `;
 
 const About = () => {
@@ -103,7 +125,10 @@ const About = () => {
             </Row>
           </Col>
         </Row>
-
+        <Row><hr/><hr/></Row>
+        <Row id="headline2">
+          <p id="headlineText2"> Trixie had her first baby Riley on 4-30  </p>
+        </Row>
       </Container>
     </StyledAbout>
   );
