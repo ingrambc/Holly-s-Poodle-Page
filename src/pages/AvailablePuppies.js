@@ -12,13 +12,25 @@ const Brutus = [
     altText: 'Brutus',
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
-    key: '1',
+    key: '4',
   },  {
     src: './images/current/Brutus17d.jpg',
     altText: 'Brutus',
     caption: '0 lbs, 15.5 oz',
     header: 'Day 17',
+    key: '3',
+  },  {
+    src: './images/current/Brutus4wr.jpg',
+    altText: 'Brutus',
+    caption: '1 lbs, 8 oz',
+    header: 'Day 30',
     key: '2',
+  },  {
+    src: './images/current/Brutus4wr2.jpg',
+    altText: 'Brutus',
+    caption: '1 lbs, 8 oz',
+    header: 'Day 30',
+    key: '1',
   },
 ];
 
@@ -28,13 +40,25 @@ const Lyra = [
     altText: 'Lyra',
     caption: '0 lbs, 5.9 oz',
     header: 'Day 1',
-    key: '1',
+    key: '4',
   },  {
     src: './images/current/Lyra17d.jpg',
     altText: 'Lyra',
     caption: '0 lbs, 15.5 oz',
     header: 'Day 17',
+    key: '3',
+  },  {
+    src: './images/current/Lyra4wr.jpg',
+    altText: 'Lyra',
+    caption: '1 lbs, 9 oz',
+    header: 'Day 30',
     key: '2',
+  },  {
+    src: './images/current/Lyra4wr2.jpg',
+    altText: 'Lyra',
+    caption: '0 lbs, 15.5 oz',
+    header: 'Day 17',
+    key: '1',
   },
 ];
 
@@ -44,13 +68,25 @@ const Gidget = [
     altText: 'Gidget',
     caption: '0 lbs, 5.8 oz',
     header: 'Day 1',
-    key: '1',
+    key: '4',
   },  {
     src: './images/current/Gidget17d.jpg',
     altText: 'Gidget',
     caption: '1 lbs, 0 oz',
     header: 'Day 17',
+    key: '3',
+  },  {
+    src: './images/current/Gidget4wr.jpg',
+    altText: 'Gidget',
+    caption: '1 lbs, 9 oz',
+    header: 'Day 30',
     key: '2',
+  },  {
+    src: './images/current/Gidget4wr2.jpg',
+    altText: 'Gidget',
+    caption: '1 lbs, 9 oz',
+    header: 'Day 30',
+    key: '1',
   },
 ];
 
@@ -60,8 +96,20 @@ const Riley = [
     altText: 'Riley',
     caption: '0 lbs, 5.5 oz',
     header: 'Day 1',
+    key: '3',  
+  },  {
+    src: './images/current/Riley2w1.jpg',
+    altText: 'Riley',
+    caption: '1 lbs, 1 oz',
+    header: 'Day 17',
+    key: '2',  
+  },  {
+    src: './images/current/Riley2w2.jpg',
+    altText: 'Riley',
+    caption: '1 lbs, 1 oz',
+    header: 'Day 17',
     key: '1',  
-  }
+  },
 ]
 
 const StyledAvailablePuppies = styled.div`
