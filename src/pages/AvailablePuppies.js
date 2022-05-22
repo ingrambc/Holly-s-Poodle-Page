@@ -110,7 +110,7 @@ function AvailablePuppies() {
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
-              price = "2000"
+              price = "1500"
               contract = "Strict Neuter/no breeding rights"
              />
           </Col>
@@ -130,7 +130,7 @@ function AvailablePuppies() {
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
-              price = "2000"
+              price = "1500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
@@ -144,13 +144,13 @@ function AvailablePuppies() {
           <Col md="8">
             <PuppyInfo
               name="Gidget"
-              status="Available"
+              status="Reserved for Heather"
               desc = "Small Miniture Apricot Female"
               height = "10 to 12 inches"
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
-              price = "2000"
+              price = "****"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
@@ -170,7 +170,7 @@ function AvailablePuppies() {
               weight = "6 to 7.5 lbs"
               birth= "April 30, 2022"
               ready= "June 15, 2022"
-              price = "2000"
+              price = "1500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
