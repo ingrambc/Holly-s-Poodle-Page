@@ -127,7 +127,7 @@ const About = () => {
         </Row>
         <Row><hr/><hr/></Row>
         <Row id="headline2">
-          <p id="headlineText2"> Trixie had her first baby Riley on 4-30  </p>
+          <p id="headlineText2"> Trixie had her first baby, Riley on 4-30  </p>
         </Row>
       </Container>
     </StyledAbout>
