@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Row, Col, UncontrolledCarousel } from "reactstrap";
+
 
 const StyledCard = styled.div`
   a:link, a:visited{
@@ -21,22 +21,15 @@ const StyledCard = styled.div`
 `;
 
 
-function PrevPuppyInfo(puppy) {
+function PrevPuppyInfo({name, family, dest, sire, dam}) {
   return (
-    <Row>
-        <Col md="4">
-          <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={puppy.photos} interval={3000} />
-        </Col>
-        <Col md="8">
-          <StyledCard> 
-            <h2> {puppy.name} </h2>
-            <h1> Family Adopted: {puppy.family} </h1>
-            <h3>Birth Date: {puppy.birth} </h3>
-            <h3>Sire: {puppy.sire} </h3>
-            <h3>Dam: {puppy.dam}</h3>
-          </StyledCard>
-        </Col>
-    </Row> 
+    <StyledCard> 
+      <h2> {name} </h2>
+      <h3> Family Adopted: {family} </h3>
+      <h3> Destination: {dest} </h3>
+      <h3>Sire: {sire} </h3>
+      <h3>Dam: {dam}</h3>
+    </StyledCard>
   )
 }     
 

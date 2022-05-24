@@ -2,10 +2,40 @@ import React from "react";
 import { Row, Col, Container, UncontrolledCarousel } from "reactstrap";
 import styled from "styled-components";
 import PrevPuppyInfo from "../components/PrevPuppyInfo";
-import PuppyList from "../components/assets/PrevList";
 
 
-const StyledAvailablePuppies = styled.div`
+const Lovey = [
+  {
+    src: './images/previous/Lovey1.jpg',
+    altText: 'Lovey',
+    key: '1',
+  },  {
+    src: './images/previous/Lovey2.jpg',
+    altText: 'Lovey',
+    key: '2',
+  },  {
+    src: './images/previous/Lovey3.jpg',
+    altText: 'Lovey',
+    key: '3',
+  },
+];
+const Ellie = [
+  {
+    src: './images/previous/Ellie1.jpg',
+    altText: 'Ellie',  
+    key: '1',
+  }, {
+    src: './images/previous/Ellie2.jpg',
+    altText: 'Ellie',    
+    key: '2',
+  },  {
+    src: './images/previous/Ellie3.jpg',
+    altText: 'Ellie',  
+    key: '3',
+  },
+]
+
+const StyledPrevPuppies = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,23 +61,47 @@ const StyledAvailablePuppies = styled.div`
 `;
 
 
-function AvailablePuppies() {
+function PreviousPuppies() {
 
   return (        
-    <StyledAvailablePuppies class="mb-3 mx-auto">
+    <StyledPrevPuppies class="mb-3 mx-auto">
       <h1>Previous Puppies</h1>
       <hr />
 
-      {/* {PuppyList.map((puppy) => (
-        <Container>
-
-        </Container>
-      ))} */}
-
-      <h3>success stories coming soon</h3>
-
-    </StyledAvailablePuppies>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Ellie} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PrevPuppyInfo
+              name="Ellie"
+              family ="Arlet"
+              dest = "San Francisco, CA"
+              sire = "Rigby"
+              dam = "Snickers"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lovey} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PrevPuppyInfo
+              name="Lovey"
+              family="Claudia"
+              dest = "Hartford, CT"
+              sire = "Rigby"
+              dam = "Snickers"
+             />
+          </Col>
+        </Row>      
+      </Container>
+    </StyledPrevPuppies>
   );
 };
 
-export default AvailablePuppies;
+export default PreviousPuppies;
