@@ -171,14 +171,14 @@ function AvailablePuppies() {
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Lyra"
-              status="Available"
+              name="Ruby"
+              status="Reserved for Mary"
               desc = "Small Miniture Apricot/Red Female"
               height = "10 to 12 inches"
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
-              price = "1500"
+              price = "Reserved"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
