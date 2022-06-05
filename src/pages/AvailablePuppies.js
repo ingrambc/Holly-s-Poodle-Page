@@ -147,18 +147,38 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Riley} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PuppyInfo
+              name="Riley"
+              status="Available"
+              desc = "Toy Apricot Female"
+              height = "9 to 10.5 inches"
+              weight = "6 to 7.5 lbs"
+              birth= "April 30, 2022"
+              ready= "June 15, 2022"
+              price = "$1500"
+              contract = "Strict Spay/no breeding rights"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
             <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Brutus} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
               name="Brutus"
-              status="Available"
+              status="Reserved for Paige"
               desc = "Small Miniture Apricot Male"
               height = "10 to 12 inches"
               weight = "7 to 8.5 lbs"
               birth= "April 15, 2022"
               ready= "June 10, 2022"
-              price = "1500"
+              price = "Reserved"
               contract = "Strict Neuter/no breeding rights"
              />
           </Col>
@@ -199,26 +219,6 @@ function AvailablePuppies() {
               birth= "April 15, 2022"
               ready= "June 10, 2022"
               price = "RESERVED"
-              contract = "Strict Spay/no breeding rights"
-             />
-          </Col>
-        </Row>      
-      </Container>
-      <Container>
-        <Row>
-          <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Riley} interval={3000} />
-          </Col>
-          <Col md="8">
-            <PuppyInfo
-              name="Riley"
-              status="Available"
-              desc = "Toy Apricot Female"
-              height = "9 to 10.5 inches"
-              weight = "6 to 7.5 lbs"
-              birth= "April 30, 2022"
-              ready= "June 15, 2022"
-              price = "1500"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
