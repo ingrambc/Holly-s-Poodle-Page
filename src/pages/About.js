@@ -127,7 +127,7 @@ const About = () => {
         </Row>
         <Row><hr/><hr/></Row>
         <Row id="headline2">
-          <p id="headlineText2"> Contact us to get on or waitlist  </p>
+          <p id="headlineText2"> Contact us to get on our waitlist  </p>
         </Row>
       </Container>
     </StyledAbout>

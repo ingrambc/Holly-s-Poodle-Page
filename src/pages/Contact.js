@@ -23,6 +23,7 @@ const StyledContact = styled.div`
 
   .h2{
     color: rgb(44, 141, 44);
+    text-align: center;
   };
 
   a:link, a:visited{
@@ -36,7 +37,7 @@ const StyledContact = styled.div`
 const Contact = () => {
   return(
     <StyledContact>
-      <Row><h2>Please email us for mor info or to get on our waitlist!</h2></Row>
+      <Row><h2>Please email us for more info or to get on our waitlist!</h2></Row>
       <Row>
         <Col Col id="column">
           <a href="mailto:rigbyjasperpoodles@hotmail.com"><img src={EmailIcon} alt="email" /></a>
