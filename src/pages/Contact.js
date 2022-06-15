@@ -36,6 +36,7 @@ const StyledContact = styled.div`
 const Contact = () => {
   return(
     <StyledContact>
+      <Row><h2>Please email us for mor info or to get on our waitlist!</h2></Row>
       <Row>
         <Col Col id="column">
           <a href="mailto:rigbyjasperpoodles@hotmail.com"><img src={EmailIcon} alt="email" /></a>

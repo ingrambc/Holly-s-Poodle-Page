@@ -106,7 +106,7 @@ const About = () => {
 
       <Container>
         <Row id="headline">
-          <a id="headlineText"> We Have Puppies Available! Born 4-15-2020  </a>
+          <a id="headlineText"> Hopefully More babies in November </a>
         </Row>
         <Row><hr/><hr/></Row>
         <Row>
@@ -127,7 +127,7 @@ const About = () => {
         </Row>
         <Row><hr/><hr/></Row>
         <Row id="headline2">
-          <p id="headlineText2"> Trixie had her first baby, Riley on 4-30  </p>
+          <p id="headlineText2"> Contact us to get on or waitlist  </p>
         </Row>
       </Container>
     </StyledAbout>
