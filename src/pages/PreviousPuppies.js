@@ -133,7 +133,7 @@ function PreviousPuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lovey} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Frito} interval={3000} />
           </Col>
           <Col md="8">
             <PrevPuppyInfo
@@ -149,7 +149,7 @@ function PreviousPuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lovey} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Nutmeg} interval={3000} />
           </Col>
           <Col md="8">
             <PrevPuppyInfo
