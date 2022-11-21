@@ -106,7 +106,7 @@ const About = () => {
 
       <Container>
         <Row id="headline">
-          <a id="headlineText"> Hopefully More babies in November </a>
+          <a id="headlineText"> Puppies Available!! </a>
         </Row>
         <Row><hr/><hr/></Row>
         <Row>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Row, Col, Container, UncontrolledCarousel } from "reactstrap";
 import styled from "styled-components";
 import PrevPuppyInfo from "../components/PrevPuppyInfo";
@@ -34,6 +34,36 @@ const Ellie = [
     key: '3',
   },
 ]
+const Frito = [
+  {
+    src: './images/previous/Frito1.jpg',
+    altText: 'Frito',
+    key: '1',
+  },  {
+    src: './images/previous/Frito2.jpg',
+    altText: 'Frito',
+    key: '2',
+  },  {
+    src: './images/previous/Frito3.jpg',
+    altText: 'Frito',
+    key: '3',
+  },
+];
+const Nutmeg = [
+  {
+    src: './images/previous/Nutmeg1.jpg',
+    altText: 'Nutmeg',
+    key: '1',
+  },  {
+    src: './images/previous/Nutmeg2.jpg',
+    altText: 'Nutmeg',
+    key: '2',
+  },  {
+    src: './images/previous/Nutmeg3.jpg',
+    altText: 'Nutmeg',
+    key: '3',
+  },
+];
 
 const StyledPrevPuppies = styled.div`
   display: flex;
@@ -94,6 +124,38 @@ function PreviousPuppies() {
               name="Lovey"
               family="Claudia"
               dest = "Hartford, CT"
+              sire = "Rigby"
+              dam = "Snickers"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lovey} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PrevPuppyInfo
+              name="Frito"
+              family="Vanderwall's"
+              dest = "Aurora, CO"
+              sire = "Rigby"
+              dam = "Snickers"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lovey} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PrevPuppyInfo
+              name="Nutmeg"
+              family="Heather"
+              dest = "Aurora, CO"
               sire = "Rigby"
               dam = "Snickers"
              />

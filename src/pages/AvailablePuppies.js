@@ -6,30 +6,57 @@ import PuppyInfo from "../components/PuppyInfo";
 
 //assets
 
-const Brutus = [
+const Charlie = [
   {
-    src: './images/current/Brutus1.jpg',
-    altText: 'Brutus',
-    caption: '0 lbs, 5.8 oz',
+    src: './images/current/Charlie1.jpg',
+    altText: 'Charlie',
+    caption: '0 lbs, 6.0 oz',
     header: 'Day 1',
     key: '4',
   },  {
-    src: './images/current/Brutus17d.jpg',
-    altText: 'Brutus',
-    caption: '0 lbs, 15.5 oz',
-    header: 'Day 17',
+    src: './images/current/Charlie23d.jpg',
+    altText: 'Charlie',
+    caption: '1 lbs, 8.3 oz',
+    header: 'Day 23',
     key: '3',
   },  {
-    src: './images/current/Brutus4wr.jpg',
-    altText: 'Brutus',
-    caption: '1 lbs, 8 oz',
-    header: 'Day 30',
+    src: './images/current/Charlie5w1.jpg',
+    altText: 'Charlie',
+    caption: '2 lbs, 1 oz',
+    header: 'Day 35',
     key: '2',
   },  {
-    src: './images/current/Brutus4wr2.jpg',
-    altText: 'Brutus',
+    src: './images/current/Charlie5w2.jpg',
+    altText: 'Charlie',
+    caption: '2 lbs, 1 oz',
+    header: 'Day 35',
+    key: '1',
+  },
+];
+const Susie = [
+  {
+    src: './images/current/Susie1.jpg',
+    altText: 'Susie',
+    caption: '0 lbs, 5.5 oz',
+    header: 'Day 1',
+    key: '4',
+  },  {
+    src: './images/current/Susie23d.jpg',
+    altText: 'Susie',
+    caption: '1 lbs, 4.6 oz',
+    header: 'Day 23',
+    key: '3',
+  },  {
+    src: './images/current/Susie5w1.jpg',
+    altText: 'Susie',
     caption: '1 lbs, 8 oz',
-    header: 'Day 30',
+    header: 'Day 35',
+    key: '2',
+  },  {
+    src: './images/current/Susie5w2.jpg',
+    altText: 'Susie',
+    caption: '1 lbs, 8 oz',
+    header: 'Day 35',
     key: '1',
   },
 ];
@@ -62,33 +89,7 @@ const Lyra = [
   },
 ];
 
-const Gidget = [
-  {
-    src: './images/current/Gidget1.jpg',
-    altText: 'Gidget',
-    caption: '0 lbs, 5.8 oz',
-    header: 'Day 1',
-    key: '4',
-  },  {
-    src: './images/current/Gidget17d.jpg',
-    altText: 'Gidget',
-    caption: '1 lbs, 0 oz',
-    header: 'Day 17',
-    key: '3',
-  },  {
-    src: './images/current/Gidget4wr.jpg',
-    altText: 'Gidget',
-    caption: '1 lbs, 9 oz',
-    header: 'Day 30',
-    key: '2',
-  },  {
-    src: './images/current/Gidget4wr2.jpg',
-    altText: 'Gidget',
-    caption: '1 lbs, 9 oz',
-    header: 'Day 30',
-    key: '1',
-  },
-];
+
 
 const Riley = [
   {
@@ -147,83 +148,44 @@ function AvailablePuppies() {
       <Container>
         <Row>
           <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Riley} interval={3000} />
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Charlie} interval={3000} />
           </Col>
           <Col md="8">
             <PuppyInfo
-              name="Gidget"
-              status="Reserved for Cynthia"
+              name="Charlie"
+              status="Available"
+              desc = "Mini Apricot Male"
+              height = "11 to 12.5 inches"
+              weight = "8.5 to 10 lbs"
+              birth= "Oct 16, 2022"
+              ready= "Dec 18, 2022"
+              price = "$2000"
+              contract = "Strict Nueter/no breeding rights"
+             />
+          </Col>
+        </Row>      
+      </Container>
+      <Container>
+        <Row>
+          <Col md="4">
+            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Susie} interval={3000} />
+          </Col>
+          <Col md="8">
+            <PuppyInfo
+              name="Susie"
+              status="Reserved for David"
               desc = "Toy Apricot Female"
-              height = "9 to 10.5 inches"
-              weight = "6.5 to 7.5 lbs"
-              birth= "April 30, 2022"
-              ready= "June 24, 2022"
+              height = "9.5 to 11 inches"
+              weight = "6 to 8 lbs"
+              birth= "Oct 16, 2022"
+              ready= "Dec 18, 2022"
               price = "Reserved"
               contract = "Strict Spay/no breeding rights"
              />
           </Col>
         </Row>      
       </Container>
-      <Container>
-        <Row>
-          <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Brutus} interval={3000} />
-          </Col>
-          <Col md="8">
-            <PuppyInfo
-              name="Brutus"
-              status="Reserved for Paige"
-              desc = "Small Miniture Apricot Male"
-              height = "10 to 12 inches"
-              weight = "7 to 8.5 lbs"
-              birth= "April 15, 2022"
-              ready= "June 10, 2022"
-              price = "Reserved"
-              contract = "Strict Neuter/no breeding rights"
-             />
-          </Col>
-        </Row>      
-      </Container>
-      <Container>
-        <Row>
-          <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Lyra} interval={3000} />
-          </Col>
-          <Col md="8">
-            <PuppyInfo
-              name="Ruby"
-              status="Reserved for Mary"
-              desc = "Small Miniture Apricot/Red Female"
-              height = "10 to 12 inches"
-              weight = "7 to 8.5 lbs"
-              birth= "April 15, 2022"
-              ready= "June 10, 2022"
-              price = "Reserved"
-              contract = "Strict Spay/no breeding rights"
-             />
-          </Col>
-        </Row>      
-      </Container>
-      <Container>
-        <Row>
-          <Col md="4">
-            <UncontrolledCarousel className="carousel" controls={false} indicators={false} items={Gidget} interval={3000} />
-          </Col>
-          <Col md="8">
-            <PuppyInfo
-              name="Nutmeg"
-              status="Reserved for Heather"
-              desc = "Small Miniture Apricot Female"
-              height = "10 to 12 inches"
-              weight = "7 to 8.5 lbs"
-              birth= "April 15, 2022"
-              ready= "June 10, 2022"
-              price = "RESERVED"
-              contract = "Strict Spay/no breeding rights"
-             />
-          </Col>
-        </Row>      
-      </Container>
+
       <p>**Adult sizes are estimates only and are not guaranteed</p>
     </StyledAvailablePuppies>
   );
